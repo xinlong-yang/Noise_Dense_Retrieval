@@ -1,6 +1,6 @@
 import torch
 
-# MemoryBank，用于存储feat以及label
+# MemoryBank
 class XBM:
     def __init__(self, args):
         self.K = args.xbmsize
